@@ -14,7 +14,7 @@ def greet_user(name):
     """A simple function that takes one parameter and prints a greeting."""
     print(f"Hello, {name}! Welcome to the Python functions tutorial.")
 
-# Calling the function
+
 greet_user("Alice")
 
 
