@@ -1,7 +1,6 @@
 """
 Python Functions Tutorial: Beginner to Intermediate
 -------------------------------------------------
-This file serves as a reference guide explaining how functions work in Python.
 """
 
 # ==========================================
