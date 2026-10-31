@@ -71,3 +71,26 @@ def square(x):
 square_lambda = lambda x: x * x
 
 print(f"Square of 6 using lambda: {square_lambda(6)}")
+
+
+def factorial(n):
+    if n < 0:
+        raise ValueError
+    result = 1
+    for i in range(2, n+1):
+        result += i
+    return result
+
+print(factorial(5))
+
+
+def two_sum(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+        complement = target- num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    return None
+
+print(two_sum([2, 7, 11, 15], 9))
